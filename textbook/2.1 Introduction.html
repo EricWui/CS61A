@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://composingprograms.com/pages/21-introduction.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>2.1 Introduction</title>
+  
+
+  <link rel="stylesheet" type="text/css" href="./2.1 Introduction_files/cp.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="./2.1 Introduction_files/pytutor.css">
+  <link rel="stylesheet" type="text/css" href="./2.1 Introduction_files/jquery-ui-1.8.21.custom.css">
+  <link rel="stylesheet" type="text/css" href="./2.1 Introduction_files/codemirror.css">
+  <link rel="stylesheet" type="text/css" href="./2.1 Introduction_files/coding.css">
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="./2.1 Introduction_files/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="./2.1 Introduction_files/jquery-ui-1.8.24.custom.min.js"></script>
+  <script type="text/javascript" src="./2.1 Introduction_files/jquery.ba-bbq.min.js"></script>
+  <script type="text/javascript" src="./2.1 Introduction_files/jquery.jsPlumb-1.3.10-all-min.js"></script>
+
+  <!-- codemirror.net online code editor -->
+  <script type="text/javascript" src="./2.1 Introduction_files/codemirror.js"></script>
+  <script type="text/javascript" src="./2.1 Introduction_files/python.js"></script>
+
+  <!-- d3 -->
+  <script type="text/javascript" src="./2.1 Introduction_files/d3.v2.min.js"></script>
+
+  <!-- Online Python Tutor -->
+  <script type="text/javascript" src="./2.1 Introduction_files/pytutor.js"></script>
+
+  <!-- Coding.js -->
+  <script type="text/javascript" src="./2.1 Introduction_files/coding.js"></script>
+  <script> var $c = new CodingJS("../theme/coding-js/"); </script>
+
+  <!-- Composing Programs -->
+  <script type="text/javascript" src="./2.1 Introduction_files/cp.js"></script>
+
+  
+    <script src="./2.1 Introduction_files/MathJax.js" type="text/javascript">
+       MathJax.Hub.Config({
+           config: ["MMLorHTML.js"],
+           jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML"],
+           TeX: { extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"], equationNumbers: { autoNumber: "AMS" } },
+           extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js","jsMath2jax.js"],
+           tex2jax: {
+               inlineMath: [ ['$','$'] ],
+               displayMath: [ ['$$','$$'] ],
+               processEscapes: true },
+           "HTML-CSS": {
+               styles: { ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+           }
+       });
+    </script>
+
+<input type="hidden" id="_w_tusk"><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body id="index" class="home"><div id="MathJax_Message" style="display: none;"></div>
+  <div class="container">
+
+    <div class="nav-main">
+      <div class="wrap">
+        <a class="nav-home" href="http://composingprograms.com/">
+          <span class="nav-logo">c<span class="nav-logo-compose">⚬</span>mp<span class="nav-logo-compose">⚬</span>sing pr<span class="nav-logo-compose">⚬</span>grams</span>
+        </a>
+        <ul class="nav-site">
+          <li><a href="http://composingprograms.com/">Text</a></li>
+          <li><a href="http://composingprograms.com/projects.html">Projects</a></li>
+          <li><a href="http://composingprograms.com/tutor.html">Tutor</a></li>
+          <li><a href="http://composingprograms.com/about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="content wrap documentationContent">
+      <div class="nav-docs">
+	<h3>Chapter 2<a id="hide_contents">Hide contents</a> </h3>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/21-introduction.html">2.1 Introduction</a></h3>
+				<li><a href="http://composingprograms.com/pages/21-introduction.html#native-data-types">2.1.1 Native Data Types</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/22-data-abstraction.html">2.2 Data Abstraction</a></h3>
+				<li><a href="http://composingprograms.com/pages/22-data-abstraction.html#example-rational-numbers">2.2.1 Example: Rational Numbers</a>
+				</li><li><a href="http://composingprograms.com/pages/22-data-abstraction.html#pairs">2.2.2 Pairs</a>
+				</li><li><a href="http://composingprograms.com/pages/22-data-abstraction.html#abstraction-barriers">2.2.3 Abstraction Barriers</a>
+				</li><li><a href="http://composingprograms.com/pages/22-data-abstraction.html#the-properties-of-data">2.2.4 The Properties of Data</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/23-sequences.html">2.3 Sequences</a></h3>
+				<li><a href="http://composingprograms.com/pages/23-sequences.html#lists">2.3.1 Lists</a>
+				</li><li><a href="http://composingprograms.com/pages/23-sequences.html#sequence-iteration">2.3.2 Sequence Iteration</a>
+				</li><li><a href="http://composingprograms.com/pages/23-sequences.html#sequence-processing">2.3.3 Sequence Processing</a>
+				</li><li><a href="http://composingprograms.com/pages/23-sequences.html#sequence-abstraction">2.3.4 Sequence Abstraction</a>
+				</li><li><a href="http://composingprograms.com/pages/23-sequences.html#strings">2.3.5 Strings</a>
+				</li><li><a href="http://composingprograms.com/pages/23-sequences.html#trees">2.3.6 Trees</a>
+				</li><li><a href="http://composingprograms.com/pages/23-sequences.html#linked-lists">2.3.7 Linked Lists</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/24-mutable-data.html">2.4 Mutable Data</a></h3>
+				<li><a href="http://composingprograms.com/pages/24-mutable-data.html#the-object-metaphor">2.4.1 The Object Metaphor</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#sequence-objects">2.4.2 Sequence Objects</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#dictionaries">2.4.3 Dictionaries</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#local-state">2.4.4 Local State</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#the-benefits-of-non-local-assignment">2.4.5 The Benefits of Non-Local Assignment</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#the-cost-of-non-local-assignment">2.4.6 The Cost of Non-Local Assignment</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#implementing-lists-and-dictionaries">2.4.7 Implementing Lists and Dictionaries</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#dispatch-dictionaries">2.4.8 Dispatch Dictionaries</a>
+				</li><li><a href="http://composingprograms.com/pages/24-mutable-data.html#propagating-constraints">2.4.9 Propagating Constraints</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/25-object-oriented-programming.html">2.5 Object-Oriented Programming</a></h3>
+				<li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#objects-and-classes">2.5.1 Objects and Classes</a>
+				</li><li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#defining-classes">2.5.2 Defining Classes</a>
+				</li><li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#message-passing-and-dot-expressions">2.5.3 Message Passing and Dot Expressions</a>
+				</li><li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#class-attributes">2.5.4 Class Attributes</a>
+				</li><li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#inheritance">2.5.5 Inheritance</a>
+				</li><li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#using-inheritance">2.5.6 Using Inheritance</a>
+				</li><li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#multiple-inheritance">2.5.7 Multiple Inheritance</a>
+				</li><li><a href="http://composingprograms.com/pages/25-object-oriented-programming.html#the-role-of-objects">2.5.8 The Role of Objects</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/26-implementing-classes-and-objects.html">2.6 Implementing Classes and Objects</a></h3>
+				<li><a href="http://composingprograms.com/pages/26-implementing-classes-and-objects.html#instances">2.6.1 Instances</a>
+				</li><li><a href="http://composingprograms.com/pages/26-implementing-classes-and-objects.html#classes">2.6.2 Classes</a>
+				</li><li><a href="http://composingprograms.com/pages/26-implementing-classes-and-objects.html#using-implemented-objects">2.6.3 Using Implemented Objects</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/27-object-abstraction.html">2.7 Object Abstraction</a></h3>
+				<li><a href="http://composingprograms.com/pages/27-object-abstraction.html#string-conversion">2.7.1 String Conversion</a>
+				</li><li><a href="http://composingprograms.com/pages/27-object-abstraction.html#special-methods">2.7.2 Special Methods</a>
+				</li><li><a href="http://composingprograms.com/pages/27-object-abstraction.html#multiple-representations">2.7.3 Multiple Representations</a>
+				</li><li><a href="http://composingprograms.com/pages/27-object-abstraction.html#generic-functions">2.7.4 Generic Functions</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/28-efficiency.html">2.8 Efficiency</a></h3>
+				<li><a href="http://composingprograms.com/pages/28-efficiency.html#measuring-efficiency">2.8.1 Measuring Efficiency</a>
+				</li><li><a href="http://composingprograms.com/pages/28-efficiency.html#memoization">2.8.2 Memoization</a>
+				</li><li><a href="http://composingprograms.com/pages/28-efficiency.html#orders-of-growth">2.8.3 Orders of Growth</a>
+				</li><li><a href="http://composingprograms.com/pages/28-efficiency.html#example-exponentiation">2.8.4 Example: Exponentiation</a>
+				</li><li><a href="http://composingprograms.com/pages/28-efficiency.html#growth-categories">2.8.5 Growth Categories</a>
+		</li></div>
+		<div class="nav-docs-section">
+			<h3><a href="http://composingprograms.com/pages/29-recursive-objects.html">2.9 Recursive Objects</a></h3>
+				<li><a href="http://composingprograms.com/pages/29-recursive-objects.html#linked-list-class">2.9.1 Linked List Class</a>
+				</li><li><a href="http://composingprograms.com/pages/29-recursive-objects.html#tree-class">2.9.2 Tree Class</a>
+				</li><li><a href="http://composingprograms.com/pages/29-recursive-objects.html#sets">2.9.3 Sets</a>
+		</li></div>
+      </div>
+
+      <div class="inner-content">
+	<h1>Chapter 2: Building Abstractions with Data</h1>
+  <div class="section" id="introduction">
+<h2>2.1&nbsp;&nbsp;&nbsp;Introduction</h2>
+<p>We concentrated in Chapter 1 on computational processes and on the role of
+functions in program design. We saw how to use primitive data (numbers) and
+primitive operations (arithmetic), how to form compound functions
+through composition and control, and how to create functional abstractions by
+giving names to processes. We also saw that higher-order functions enhance the
+power of our language by enabling us to manipulate, and thereby to reason, in
+terms of general methods of computation. This is much of the essence of
+programming.</p>
+<p>This chapter focuses on data.  The techniques we investigate here will allow us
+to represent and manipulate information about many different domains.  Due to
+the explosive growth of the Internet, a vast amount of structured information
+is freely available to all of us online, and computation can be applied to a
+vast range of different problems. Effective use of built-in and user-defined
+data types are fundamental to data processing applications.</p>
+<div class="section" id="native-data-types">
+<h3>2.1.1&nbsp;&nbsp;&nbsp;Native Data Types</h3>
+<p>Every value in Python has a <em>class</em> that determines what type of value it is.
+Values that share a class also share behavior. For example, the integers
+<tt class="docutils literal">1</tt> and <tt class="docutils literal">2</tt> are both instances of the <tt class="docutils literal">int</tt> class. These two values can
+be treated similarly. For example, they can both be negated or added to another
+integer. The built-in <tt class="docutils literal">type</tt> function allows us to inspect the class of any
+value.</p>
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="go">&lt;class 'int'&gt;</span>
+</pre></div>
+
+<p>The values we have used so far are instances of a small number of <em>native</em> data
+types that are built into the Python language. Native data types have the
+following properties:</p>
+<ol class="arabic simple">
+<li>There are expressions that evaluate to values of native types, called
+<em>literals</em>.</li>
+<li>There are built-in functions and operators to manipulate values of native
+types.</li>
+</ol>
+<p>The <tt class="docutils literal">int</tt> class is the native data type used to represent integers. Integer
+literals (sequences of adjacent numerals) evaluate to <tt class="docutils literal">int</tt> values, and
+mathematical operators manipulate these values.</p>
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">12</span> <span class="o">+</span> <span class="mi">3000000000000000000000000</span>
+<span class="go">3000000000000000000000012</span>
+</pre></div>
+
+<p>Python includes three native numeric types: integers (<tt class="docutils literal">int</tt>), real numbers
+(<tt class="docutils literal">float</tt>), and complex numbers (<tt class="docutils literal">complex</tt>).</p>
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="go">&lt;class 'float'&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="n">j</span><span class="p">)</span>
+<span class="go">&lt;class 'complex'&gt;</span>
+</pre></div>
+
+<p><strong>Floats.</strong> The name <tt class="docutils literal">float</tt> comes from the way in which real numbers are
+represented in Python and many other programming languages: a "floating point"
+representation.  While the details of how numbers are represented is not a
+topic for this text, some high-level differences between <tt class="docutils literal">int</tt> and <tt class="docutils literal">float</tt>
+objects are important to know.  In particular, <tt class="docutils literal">int</tt> objects represent
+integers exactly, without any approximation or limits on their size.  On the
+other hand, <tt class="docutils literal">float</tt> objects can represent a wide range of fractional numbers,
+but not all numbers can be represented exactly, and there are minimum and
+maximum values. Therefore, <tt class="docutils literal">float</tt> values should be treated as approximations
+to real values. These approximations have only a finite amount of precision.
+Combining <tt class="docutils literal">float</tt> values can lead to approximation errors; both of the
+following expressions would evaluate to <tt class="docutils literal">7</tt> if not for approximation.</p>
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">7</span> <span class="o">/</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="go">7.0</span>
+</pre></div>
+
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">1</span> <span class="o">/</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">7</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="go">6.999999999999999</span>
+</pre></div>
+
+<p>Although <tt class="docutils literal">int</tt> values are combined above, dividing one <tt class="docutils literal">int</tt> by another
+yields a <tt class="docutils literal">float</tt> value: a truncated finite approximation to the actual ratio
+of the two integers divided.</p>
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">&lt;class 'float'&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span>
+<span class="go">0.3333333333333333</span>
+</pre></div>
+
+<p>Problems with this approximation appear when we conduct equality tests.</p>
+<div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span> <span class="o">==</span> <span class="mf">0.333333333333333312345</span>  <span class="c1"># Beware of float approximation</span>
+<span class="go">True</span>
+</pre></div>
+
+<p>These subtle differences between the <tt class="docutils literal">int</tt> and <tt class="docutils literal">float</tt> class have
+wide-ranging consequences for writing programs, and so they are details that
+must be memorized by programmers. Fortunately, there are only a handful of
+native data types, limiting the amount of memorization required to become
+proficient in a programming language. Moreover, these same details are
+consistent across many programming languages, enforced by community guidelines
+such as the
+<a class="reference external" href="http://en.wikipedia.org/wiki/IEEE_floating_point">IEEE 754 floating point standard</a>.</p>
+<p><strong>Non-numeric types.</strong> Values can represent many other types of data, such as
+sounds, images, locations, web addresses, network connections, and more. A few
+are represented by native data types, such as the <tt class="docutils literal">bool</tt> class for values
+<tt class="docutils literal">True</tt> and <tt class="docutils literal">False</tt>. The type for most values must be defined by
+programmers using the means of combination and abstraction that we will
+develop in this chapter.</p>
+<p>The following sections introduce more of Python's native data types, focusing
+on the role they play in creating useful data abstractions. For those
+interested in further details, a chapter on <a class="reference external" href="http://getpython3.com/diveintopython3/native-datatypes.html">native data types</a> in the online
+book Dive Into Python 3 gives a pragmatic overview of all Python's native data
+types and how to manipulate them, including numerous usage examples and
+practical tips.</p>
+</div>
+</div>
+  <p><i>Continue</i>:
+  	<a href="http://composingprograms.com/pages/22-data-abstraction.html">
+  		2.2 Data Abstraction
+  	</a>
+      </p></div>
+    </section>
+
+    <div class="wrap">
+      <footer id="contentinfo" class="body">
+          Composing Programs by <a href="http://www.denero.org/">John
+          DeNero</a>, based on the textbook <a href="http://mitpress.mit.edu/sicp/">Structure and
+          Interpretation of Computer Programs</a> by Harold Abelson and
+          Gerald Jay Sussman, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+          Commons Attribution-ShareAlike 3.0 Unported License</a>.
+      </footer><!-- /#contentinfo -->
+    </div>
+  </div>
+
+<!----></body></html>

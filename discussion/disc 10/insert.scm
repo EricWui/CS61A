@@ -1,0 +1,5 @@
+(define (insert element lst index)
+   (if(= index 0) (cons element lst)
+        (cons (car lst) (insert element lst (- index 1)))
+   )
+)
